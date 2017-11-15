@@ -1,0 +1,271 @@
+@viewport {
+   width: device-width;
+   zoom: 1;
+}
+
+body.mobile {
+	font-size : 8px;
+	width : 100%;
+	margin : 0;
+	padding : 0;
+}
+
+.mobile #main {
+	width : 100%;
+}
+
+.mobile nav {
+	height : auto;
+	overflow : hidden;
+}
+
+.mobile #mobile_description {
+	display : block;
+	padding-top : 10px;
+}
+
+.mobile nav ul {
+	width : 100%;
+	left : 0px;
+	margin-left : 0px;
+	background-size : 90% auto;
+	background-position : center;
+	height : 120px;
+	top : 0px;
+}
+
+.mobile nav ul li {
+	width : 19%;
+	margin : 0;
+	height : 100%;
+}
+
+.mobile nav ul li.item5 {
+	width : 18%;
+}
+
+.mobile nav ul li.display-content div.content {
+	display : none;
+}
+
+.mobile #locales_selector {
+	height : 80px;
+	margin : 20px 0 0 31px;
+}
+
+.mobile #locales_selector .locale {
+	height: 45px;
+   	width: 60px;
+   	padding-top: 15px;
+   	font-size: 30px;
+   	border-radius: 80px;
+}
+
+.mobile #logo {
+	height: auto;
+    left: 0;
+    margin-left: 0;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top : -40px;
+}
+
+.mobile #logo img {
+	width : 90%;
+	height : auto;
+	max-width: 200px;
+    max-height: 172px;
+}
+
+.mobile #goto_project {
+	width : 97px;
+	height : 97px;
+	background-size : 100% 100%;
+	margin-top : 30px;
+}
+
+.mobile .navigation_guide.first {
+	top : 45px;
+	height : 300px;
+}
+
+.mobile #projects .arrow {
+	background-size : 25px 50px !important;
+	width : 25px;
+	height : 50px;
+	top : 77px;
+	margin-left : -130px;
+}
+
+.mobile #projects .arrow-right {
+	margin-left : 105px;
+}
+
+.mobile .anchor {
+	width : 42px;
+	height : 42px;
+	background-size : 42px 42px;
+}
+
+.mobile .breadcrumb {
+	width : 42px;
+	height : 82px;
+	background-size : 100% 100%;
+	top : 130px;
+	margin-left : -21px;
+}
+
+.mobile .project {
+	width : 90px;
+	height : 90px;
+}
+
+.mobile .project:before {
+	background-size : 100% 100% !important;
+}
+
+.mobile #project_content {
+	left : 0;
+	margin : 190px 0 250px;
+	width : 100%;
+}
+
+.mobile #project_content .content {
+	width : 100%;
+}
+
+.mobile .flash-wrapper {
+	border : 0;
+	border-top : 1px solid #3B3A3A;
+	border-bottom : 1px solid #3B3A3A;
+}
+
+.mobile #project_holder {
+	margin-top : 62px;
+	width : 100%;
+}
+
+.mobile #projects {
+	min-height : 980px;
+}
+
+.mobile .project.first {
+	top : 150px !important;
+}
+
+
+.mobile #smart_like:before {
+	background : url("images/projects/7ec718smartlike.png") 0 0 no-repeat;
+}
+
+.mobile #ibis:before {
+	background : url("images/projects/7b849aibis.png") 0 0 no-repeat;
+}
+
+.mobile #ripolin:before {
+	background : url("images/projects/193e75ripolin.png") 0 0 no-repeat;
+}
+
+.mobile #lacoste:before {
+	background : url("images/projects/9773f0lacoste.png") 0 0 no-repeat;
+}
+
+.mobile #cymbeline:before {
+	background : url("images/projects/d5d196cymbeline.png") 0 0 no-repeat;
+}
+
+.mobile #jti:before {
+	background : url("images/projects/ff8000jti.png") 0 0 no-repeat;
+}
+
+.mobile #free:before {
+	background : url("images/projects/f59c64free.png") 0 0 no-repeat;
+}
+
+.mobile #cilgere:before {
+	background : url("images/projects/058589cilgere.png") 0 0 no-repeat;
+}
+
+.mobile #jacques_vabre:before {
+	background : url("images/projects/9c131ajacquesvabre.png") 0 0 no-repeat;
+}
+
+.mobile #graphic_obession:before {
+	background : url("images/projects/edc842go.png") 0 0 no-repeat;
+}
+
+.mobile .project .tag {
+	background-position: center center;
+    background-size: 20px 20px;
+    height: 20px;
+    left: 0;
+    top: 10px;
+    width: 40px;
+    display : none;
+}
+
+.mobile .project .tag.responsive {
+	background-size : 40px 20px;
+}
+
+.mobile .project .description {
+	font-family: GothamLight;
+    font-size: 7px;
+    height: auto;
+    left: 38px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    transform: rotate(-45deg);
+    width: 60px;
+    display : none;
+}
+
+.mobile #goto_contact {
+	width : 97px;
+	height : 97px;
+	background-size : 100% 100%;
+	margin : -49px;
+}
+
+.mobile footer {
+	height : 790px;
+}
+
+.mobile #social .logo {
+	background-size : 100% 100% !important;
+	width : 50px;
+	height : 50px;
+}
+
+.mobile #instagram {
+	background: url("images/svgs/instagram02.svg") 0 0 no-repeat;
+}
+
+.mobile #pinterest {
+	background: url("images/svgs/pinterest02.svg") 0 0 no-repeat;
+}
+
+.mobile #resume {
+	background: url("images/svgs/resume02.svg") 0 0 no-repeat;
+	position: absolute;
+    margin-left: -25px;
+    top: 300px;
+    left: 50%;
+}
+
+.mobile #twitter {
+	background: url("images/svgs/twitter02.svg") 0 0 no-repeat;
+}
+
+.mobile #facebook {
+	background: url("images/svgs/facebook02.svg") 0 0 no-repeat;
+}
+
+.mobile #logo_bottom {
+	margin-top : 160px;
+}
+
+

@@ -1,0 +1,44 @@
+body {
+	background : #000;
+}
+
+.background {
+	width : 100%;
+	height : 900px;
+	background : url("images/uncompliant.jpg") 50% 0 no-repeat;
+	position : absolute;
+}
+
+.desktop .background {
+	min-width : 640px;
+}
+
+.mobile .background {
+	background : url("images/uncompliant-mobile.jpg") 0 0 no-repeat;
+	background-size : 100% auto;
+	max-width : 640px;
+	position: relative;
+	margin : 0 auto;
+	
+}
+
+.links {
+	position: relative;
+	left: 50%;
+	width: 850px;
+	height: 170px;
+	margin-left: -400px;
+	top: 369px;
+}
+
+.links a {
+	width: 170px;
+	height: 170px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 38px;
+}
+
+.mobile .links {
+	display : none;
+}
